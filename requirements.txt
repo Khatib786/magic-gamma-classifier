@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# Optional but recommended - enable the LightGBM model, Optuna tuning,
+# and the official UCI dataset loader respectively. The pipeline degrades
+# gracefully (skips that piece, logs a warning) if any is missing.
+lightgbm>=4.0
+optuna>=3.0
+ucimlrepo>=0.0.3
